@@ -1,0 +1,31 @@
+{
+  "name": "ashon-ikon/php5-to-php7-bridge",
+  "description": "Provides fallback for PHP5 while writing PHP7 code",
+  "type": "project",
+  "homepage": "https://github.com/ashon-ikon/php5-to-php7-bridge",
+  "require": {
+    "php": ">=5.4",
+    "zendframework/zftool": "dev-master",
+    "zendframework/zend-eventmanager": "*",
+    "zendframework/zend-config": "*",
+    "zendframework/zend-mvc": "*",
+    "zendframework/zend-console": "*"
+  },
+  "require-dev": {
+    
+  },
+  "autoload": {
+    "classmap" : [
+        "bridge"
+    ]
+  },
+  "license": "GNU GENERAL PUBLIC LICENSE GPL2",
+  "authors": [
+    {
+      "name": "Yinka Ashon",
+      "email": "gigalimit20@yahoo.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "version": "0.1.0"
+}
